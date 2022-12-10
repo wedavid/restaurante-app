@@ -1,0 +1,48 @@
+body {
+  background: #eae3de;
+  font-size: 1rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.mb-right {
+  margin-right: 3px;
+  /* espacio a la derecha*/
+}
+
+.bg-dark {
+  background-color: hsl(23, 80%, 10%) !important;
+}
+
+.btn {
+  border-radius: 0%;
+}
+
+.form-control {
+  border-radius: 0%;
+}
+
+.card {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card h5 {
+  font-style: inherit;
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  margin-bottom: 0%;
+}
